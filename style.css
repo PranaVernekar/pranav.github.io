@@ -32,3 +32,18 @@ body, html {
 .card:hover {
   transform: translateY(-10px);
 }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
