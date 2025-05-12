@@ -46,9 +46,8 @@ body {
   font-weight: bold;
 }
 
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
+footer a:hover {
+  text-decoration: underline;
+  color: #0dcaf0 !important;
 }
 
