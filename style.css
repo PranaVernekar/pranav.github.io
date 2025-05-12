@@ -11,15 +11,20 @@ body, html {
   color: white;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 0;
-}
+ .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+    footer {
+      background: #343a40;
+      color: #fff;
+      padding: 20px 0;
+    }
 
 .z-1 {
   z-index: 1;
