@@ -51,3 +51,99 @@ footer a:hover {
   color: #0dcaf0 !important;
 }
 
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background-color: #f8f9fa;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section .btn {
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+/* Course Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+/* Testimonials */
+#testimonials .shadow {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* CTA Section */
+section.bg-primary {
+  background: linear-gradient(90deg, #0d6efd 0%, #0b5ed7 100%);
+}
+
+section.bg-primary .btn {
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+
+/* Footer */
+footer {
+  font-size: 15px;
+}
+
+footer h5 {
+  font-weight: 600;
+}
+
+footer i {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+}
+
