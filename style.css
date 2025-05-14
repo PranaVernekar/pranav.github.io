@@ -27,7 +27,6 @@ a:hover {
 
 /* Hero Section */
 .hero-section {
-  background: url('images/imgs.png') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: white;
