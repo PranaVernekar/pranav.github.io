@@ -1305,3 +1305,28 @@ footer {
       line-height: 1.5;
       margin: 6px 0;
     }
+.car-container {
+  position: absolute;
+  bottom: 30px;
+  left: -200px; /* Start off-screen */
+  width: 200px;
+  animation: driveAcross 10s linear infinite;
+  z-index: 2;
+}
+
+.car {
+  width: 100%;
+  filter: drop-shadow(0 0 10px limegreen);
+}
+
+@keyframes driveAcross {
+  0% {
+    left: -200px;
+  }
+  50% {
+    transform: scaleX(1); /* Facing right */
+  }
+  100% {
+    left: 100vw;
+  }
+}
