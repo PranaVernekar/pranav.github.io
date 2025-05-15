@@ -3,102 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>All Courses - P2P-TechEdge</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css" />
+  <title>Course Designs - P2P TechEdge</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Space+Grotesk&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">P2P-TechEdge</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link active" href="#">Courses</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Courses Section -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-5">Explore Our Full Course Catalog</h2>
-      <div class="row g-4">
-        <!-- Course 1 -->
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">Cloud Computing</h5>
-              <p class="card-text">Master AWS, Azure, and Google Cloud with real-world projects.</p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <!-- Course 2 -->
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">AI / Machine Learning</h5>
-              <p class="card-text">Hands-on ML with Python, TensorFlow, and Scikit-learn.</p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <!-- Course 3 -->
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">Web Development</h5>
-              <p class="card-text">Front-end & back-end with HTML, CSS, React, and Node.js.</p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <!-- Course 4 -->
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">DevOps</h5>
-              <p class="card-text">CI/CD, Docker, Jenkins, and Kubernetes from scratch.</p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <!-- Course 5 -->
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">Cybersecurity</h5>
-              <p class="card-text">Ethical hacking, network security & real-world threats.</p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <!-- Course 6 -->
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">Data Science</h5>
-              <p class="card-text">Data analysis, visualization, and predictive modeling.</p>
-              <a href="#" class="btn btn-outline-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
+<header>
+  <div class="logo">
+    <h1 class="neon-text">P2P TechEdge</h1>
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#cloud">Cloud Computing</a></li>
+      <li><a href="#devops">DevOps</a></li>
+      <li><a href="#ai">AI/ML</a></li>
+      <li><a href="#web">Web Design</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="grid-overlay"></div>
+    <div class="hero-content">
+      <h2 class="neon-text">Master the Future of Tech</h2>
+      <p>Choose from Cloud Computing, DevOps, AI/ML, or Web Design and start your learning journey today.</p>
+      <div class="cta-buttons">
+        <a href="#cloud" class="btn btn-primary">Explore Courses</a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-primary text-white text-center py-3 mt-5">
-    <p class="mb-0">© 2025 P2P-TechEdge. All rights reserved.</p>
-  </footer>
+  <!-- Course Sections -->
+  <section id="cloud">
+    <div class="section-header">
+      <h2 class="neon-text">Cloud Computing Course</h2>
+      <p>Duration: 6–8 weeks | Beginner to Intermediate</p>
+    </div>
+    <ul>
+      <li><strong>Module 1:</strong> Introduction to Cloud Computing</li>
+      <li><strong>Module 2:</strong> Cloud Platforms Overview</li>
+      <li><strong>Module 3:</strong> Cloud Architecture and Design</li>
+      <li><strong>Module 4:</strong> Cloud Security and Compliance</li>
+      <li><strong>Module 5:</strong> Cloud DevOps</li>
+      <li><strong>Module 6:</strong> Real-World Cloud Project</li>
+    </ul>
+  </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <section id="devops">
+    <div class="section-header">
+      <h2 class="neon-text">DevOps Course</h2>
+      <p>Duration: 6–8 weeks | Beginner to Intermediate</p>
+    </div>
+    <ul>
+      <li><strong>Module 1:</strong> Introduction to DevOps</li>
+      <li><strong>Module 2:</strong> Version Control and Collaboration</li>
+      <li><strong>Module 3:</strong> Continuous Integration and Delivery</li>
+      <li><strong>Module 4:</strong> Containerization and Orchestration</li>
+      <li><strong>Module 5:</strong> Infrastructure as Code</li>
+      <li><strong>Module 6:</strong> Monitoring and Logging</li>
+      <li><strong>Module 7:</strong> Real-World DevOps Project</li>
+    </ul>
+  </section>
+
+  <section id="ai">
+    <div class="section-header">
+      <h2 class="neon-text">AI / ML Course</h2>
+      <p>Duration: 8–10 weeks | Beginners with Python knowledge</p>
+    </div>
+    <ul>
+      <li><strong>Module 1:</strong> Introduction to AI and Machine Learning</li>
+      <li><strong>Module 2:</strong> Python for AI/ML</li>
+      <li><strong>Module 3:</strong> Supervised Learning</li>
+      <li><strong>Module 4:</strong> Unsupervised Learning</li>
+      <li><strong>Module 5:</strong> Neural Networks and Deep Learning</li>
+      <li><strong>Module 6:</strong> AI/ML Project Implementation</li>
+    </ul>
+  </section>
+
+  <section id="web">
+    <div class="section-header">
+      <h2 class="neon-text">Web Design Course</h2>
+      <p>Duration: 6–8 weeks | Beginner to Intermediate</p>
+    </div>
+    <ul>
+      <li><strong>Module 1:</strong> Introduction to Web Design</li>
+      <li><strong>Module 2:</strong> HTML and CSS Basics</li>
+      <li><strong>Module 3:</strong> Advanced CSS</li>
+      <li><strong>Module 4:</strong> JavaScript for Interactive Websites</li>
+      <li><strong>Module 5:</strong> Front-End Frameworks</li>
+      <li><strong>Module 6:</strong> Web Design Best Practices</li>
+      <li><strong>Module 7:</strong> Real-World Web Design Project</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer style="text-align: center; padding: 32px;">
+  <p style="color: var(--color-text-secondary);">© 2025 P2P TechEdge. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
