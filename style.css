@@ -1330,3 +1330,24 @@ footer {
     left: 100vw;
   }
 }
+.benefit-wrapper {
+  display: flex;
+  align-items: flex-start; /* aligns top of text and image */
+  gap: 30px; /* space between text and image */
+}
+
+.benefit-wrapper ul {
+  flex: 1 1 60%; /* text takes ~60% width */
+  margin: 0; /* remove default margin if needed */
+  padding-right: 10px;
+}
+
+.benefit-wrapper img.responsive-image {
+  flex: 1 1 35%; /* image takes ~35% width */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  object-fit: contain; /* ensures image fits nicely */
+ 
+}
